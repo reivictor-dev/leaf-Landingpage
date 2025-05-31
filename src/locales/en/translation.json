@@ -1,0 +1,58 @@
+{
+  "header": {
+    "title": "Clinical Pilates and Physiotherapy",
+    "about": "About",
+    "classes": "Classes",
+    "location": "Location",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "A welcoming space with physiotherapists dedicated to your well-being.",
+    "button": "Schedule a free trial class"
+  },
+  "location": {
+    "title": "Location",
+    "address": "We are located at Rua Fernando Farinha 14 loja 2c"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "alertFillAll": "Please fill in all fields.",
+    "alertThanks": "Thank you for contacting us, {{nome}}! We will get back to you soon.",
+    "placeholders": {
+      "nome": "Your first name",
+      "surname": "Your last name",
+      "email": "Your email",
+      "tel": "Your phone number",
+      "selectHour": "Select a time",
+      "mensagem": "Your message"
+    },
+    "sendButton": "Send"
+  },
+  "about": {
+    "title": "About Us",
+    "description": {
+      "part1": "We are physiotherapists and Pilates instructors who combine technical knowledge with personalized attention to promote health, well-being, and quality of life.",
+      "part2": "At LEAF, each class is designed to meet your needs with safety and dedication."
+    },
+    "meetProfessionals": "Meet the Professionals",
+    "close": "Close",
+    "professionals": {
+      "vanessa": {
+        "name": "VANESSA FALCÃO",
+        "description": "Physiotherapist, OF 0000, Pilates Instructor certified by Stott Pilates."
+      },
+      "ana": {
+        "name": "ANA BEATRIZ REI",
+        "description": "Physiotherapist, OF 0000, Pilates Instructor certified by VOLL Pilates Group."
+      }
+    }
+  },
+  "footer": {
+    "studioName": "LEAF Pilates",
+    "slogan": "Body in motion, mind in balance.",
+    "contact": "Contact",
+    "rightsReserved": "All rights reserved."
+  }
+
+
+}

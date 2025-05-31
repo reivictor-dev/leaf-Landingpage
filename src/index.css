@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Poppins:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "flowbite/src/themes/default";
+@import "tailwindcss";
+
+
+body {
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.teste{
+    border: 1px solid red;
+}
+@theme {
+    --color-light-brown: #a58b7f;
+    --color-dark-brown: #7c655c;
+    --color-heavy-green: #435b4e;
+    --color-grey-edited: #bac3cb;
+    --color-olive: #8a9a5b;
+    --color-sand: #d8c3a5;
+    --color-cream: #f5f1ed;
+    --color-moss: #5e7156;
+    --color-terracotta: #d88c72;
+    --color-stone: #928b81;
+    --color-sage: #b2b7a3;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+}
+

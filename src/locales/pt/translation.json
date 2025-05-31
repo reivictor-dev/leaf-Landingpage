@@ -1,0 +1,59 @@
+{
+  "header": {
+    "title": "Pilates Clínico e Fisioterapia",
+    "about": "Sobre",
+    "classes": "Aulas",
+    "location": "Localização",
+    "contact": "Contacto"
+  },
+
+   "hero": {
+    "title": "Um espaço acolhedor com fisioterapeutas dedicados ao seu bem-estar.",
+    "button": "Agende uma aula experimental gratuita"
+  },
+  "location": {
+    "title": "Localização",
+    "address": "Estamos localizados Rua Fernando Farinha 14 loja 2c"
+  },
+  "contact": {
+    "title": "Fale Conosco",
+    "alertFillAll": "Por favor, preencha todos os campos.",
+    "alertThanks": "Obrigado pelo contato, {{nome}}! Em breve responderemos.",
+    "placeholders": {
+      "nome": "Seu nome",
+      "surname": "Seu apelido",
+      "email": "Seu e-mail",
+      "tel": "Seu telefone",
+      "selectHour": "Selecione o horário",
+      "mensagem": "Sua mensagem"
+    },
+    "sendButton": "Enviar"
+  },
+  "about": {
+    "title": "Sobre nós",
+    "description": {
+      "part1": "Somos fisioterapeutas e instrutoras de Pilates que unimos conhecimento técnico e atenção personalizada para promover saúde, bem-estar e qualidade de vida.",
+      "part2": "No LEAF, cada aula é pensada para atender às vossas necessidades com segurança e dedicação."
+    },
+    "meetProfessionals": "Conheça as Profissionais",
+    "close": "Fechar",
+    "professionals": {
+      "vanessa": {
+        "name": "VANESSA FALCÃO",
+        "description": "Fisioterapeuta, OF 0000, Instrutora de Pilates formada pela Stott Pilates."
+      },
+      "ana": {
+        "name": "ANA BEATRIZ REI",
+        "description": "Fisioterapeuta, OF 0000, Instrutora de Pilates formada pela VOLL Pilates Group."
+      }
+    }
+  },
+  "footer": {
+    "studioName": "LEAF Pilates",
+    "slogan": "Corpo em movimento, mente em equilíbrio.",
+    "contact": "Contacto",
+    "rightsReserved": "Todos os direitos reservados."
+  }
+}
+
+  
