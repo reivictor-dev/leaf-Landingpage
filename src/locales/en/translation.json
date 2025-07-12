@@ -15,7 +15,7 @@
     "address": "We are located at Rua Fernando Farinha 14 loja 2c"
   },
   "contact": {
-    "title": "Contact Us",
+    "title": "Schedule your class",
     "alertFillAll": "Please fill in all fields.",
     "alertThanks": "Thank you for contacting us, {{nome}}! We will get back to you soon.",
     "placeholders": {

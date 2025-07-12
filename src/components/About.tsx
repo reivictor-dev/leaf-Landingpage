@@ -22,7 +22,7 @@ const About: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <section id="about" className="w-full py-20 bg-grey-edited min-h-screen pt-18">
+    <section id="about" className="w-full py-20 bg-white min-h-screen pt-18 font-poppins">
       <h2 className="text-3xl font-bold text-center text-dark-brown mt-16">{t('about.title')}</h2>
 
       <div className="max-w-6xl mx-auto px-4 my-12">
@@ -43,7 +43,7 @@ const About: React.FC = () => {
             />
             <div className="absolute inset-0 bg-heavy-green bg-opacity-90 text-white p-6 flex items-center translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out">
               <div>
-                <h3 className="leading-relaxed text-3xl pb-2">{t(prof.nomeKey)}</h3>
+                <h3 className="leading-relaxed text-3xl pb-2 font-roboto">{t(prof.nomeKey)}</h3>
                 <p className="text-lg leading-relaxed">{t(prof.descricaoKey)}</p>
               </div>
             </div>

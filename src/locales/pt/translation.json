@@ -13,10 +13,10 @@
   },
   "location": {
     "title": "Localização",
-    "address": "Estamos localizados Rua Fernando Farinha 14 loja 2c"
+    "address": "Estamos localizados na Rua Fernando Farinha 14 loja 2c"
   },
   "contact": {
-    "title": "Fale Conosco",
+    "title": "Agende sua aula conosco",
     "alertFillAll": "Por favor, preencha todos os campos.",
     "alertThanks": "Obrigado pelo contato, {{nome}}! Em breve responderemos.",
     "placeholders": {

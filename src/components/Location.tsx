@@ -11,7 +11,7 @@ const Location: React.FC = () => {
       </h2>
       <div className="max-w-6xl mx-auto px-4 my-12">
         <p className="text-lg text-center text-gray-700">
-          {t('location.address')} <b>{t('location.addressDetail')}</b>
+          {t('location.address')}
         </p>
       </div>
 

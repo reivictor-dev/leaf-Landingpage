@@ -7,13 +7,75 @@
 body {
     overflow-x: hidden;
 }
+
 html {
     scroll-behavior: smooth;
+
 }
 
 .teste{
     border: 1px solid red;
 }
+
+@layer utilities {
+  .paralaxClasses {
+    position: relative;
+    background-image: url('/src/assets/img/paralax-bg-1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .paralaxClasses::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+
+  .paralaxClasses > * {
+    position: relative;
+    z-index: 10;
+  }
+
+  @media (max-width: 768px) {
+    .paralaxClasses {
+      background-image: url('/src/assets/img/paralax-bg-1-mobile.jpg');
+      background-attachment: scroll;
+    }
+  }
+
+  .paralaxContact {
+    position: relative;
+    background-image: url('/src/assets/img/paralax-bg-2.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .paralaxContact::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+
+  .paralaxContact > * {
+    position: relative;
+    z-index: 10;
+  }
+
+  @media (max-width: 768px) {
+    .paralaxContact {
+      background-image: url('/src/assets/img/paralax-bg-2-mobile.jpg');
+      background-attachment: scroll;
+    }
+  }
+}
+
+
 @theme {
     --color-light-brown: #a58b7f;
     --color-dark-brown: #7c655c;

@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
         </h3>
         <a
           href="#contato"
-          className="bg-green-700 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-heavy-green transition"
+          className="bg-heavy-green text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-green-700 transition"
         >
           {t('hero.button')}
         </a>
